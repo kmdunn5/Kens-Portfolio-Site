@@ -10,6 +10,8 @@
 * MySQL
 * Google Maps Integration
 * Framework that sorts a table?
+* React Native - React Native Table Components
+* Deployment - Probably not heroku
 
 ## Zukies Dookies
 
