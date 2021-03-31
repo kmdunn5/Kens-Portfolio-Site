@@ -1,4 +1,4 @@
-# Ken-s-Portfolio-Site
+# Kens-Portfolio-Site
 
 ## List of Ideas
 * Dog Health Tracker-Poops/medicines
