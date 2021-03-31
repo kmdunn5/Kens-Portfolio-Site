@@ -32,6 +32,7 @@ As a dog owner, I want to be able to effectively track the wellness of my dog, s
 
 ### Wireframe
 ![Zookies Dookies Wireframe](https://github.com/kmdunn5/Kens-Portfolio-Site/blob/main/images/Zookies%20Dookies.png)
+
 ## Back To The Books
 
 ### User Story
