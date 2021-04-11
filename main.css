@@ -1,20 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Train+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 /* font-family: 'Train One', cursive; */
 /* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Righteous', cursive; */
 
 :root {
-  --rich-black-fogra-29: #011627ff;
-  --baby-powder: #fdfffcff;
-  --tiffany-blue: #2ec4b6ff;
-  --rose-madder: #e71d36ff;
-  --orange-peel: #ff9f1cff;
+  --rich-black-fogra-39: #070707ff;
+  --black-chocolate: #28231cff;
+  --dark-liver-horses: #513b3cff;
+  --liver: #655356ff;
+  --non-photo-blue: #c1eeffff;
+  --silver-metallic: #ada8b6ff;
+  --antique-white: #ffeedbff;
+  --tea-green: #c9e4caff;
+  --wisteria: #bc96e6ff;
+  --gold-crayola: #e1bb80ff;
 }
 
 body {
-  background-color: var(--rich-black-fogra-29);
-  color: var(--tiffany-blue);
+  background-color: var(--black-chocolate);
+  color: var(--silver-metallic);
   font-family: "Oswald", sans-serif;
   text-align: center;
+}
+
+header {
+  display: inline-block;
+  color: var(--non-photo-blue);
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 500px;
+}
+
+.anchor {
+  margin-bottom: 213px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: var(--black-chocolate);
+  width: 100%;
+}
+
+img {
+  max-width: 200px;
 }
 
 div {
@@ -26,49 +58,43 @@ div {
 }
 
 a:link {
-  color: var(--rose-madder);
+  color: var(--antique-white);
 }
 
 a:visited {
-  color: var(--orange-peel);
+  color: var(--wisteria);
 }
 
-ul {
+.button-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  margin-bottom: 700px;
+}
+
+.nav-link:visited,
+.nav-link:link {
+  color: var(--gold-crayola);
+}
+
+.grid-list {
   display: grid;
-  /* grid-template-columns: repeat(); */
-  list-style: none;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.list-item {
+  max-width: fit-content;
 }
 
 h1 {
-  font-family: "Train One", cursive;
+  font-family: "Righteous", cursive;
+  color: var(--tea-green);
 }
 
-.num1 {
-  background-color: var(--rich-black-fogra-29);
-  width: 200px;
-  height: 200px;
-}
-
-.num2 {
-  background-color: var(--baby-powder);
-  width: 200px;
-  height: 200px;
-}
-
-.num3 {
-  background-color: var(--tiffany-blue);
-  width: 200px;
-  height: 200px;
-}
-
-.num4 {
-  background-color: var(--rose-madder);
-  width: 200px;
-  height: 200px;
-}
-
-.num5 {
-  background-color: var(--orange-peel);
-  width: 200px;
-  height: 200px;
+button {
+  background-color: var(--wisteria);
+  color: var(--non-photo-blue);
+  padding: 15px;
 }
