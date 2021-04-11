@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Train+One&display=swap");
+/* font-family: 'Train One', cursive; */
+/* font-family: 'Oswald', sans-serif; */
+
+:root {
+  --rich-black-fogra-29: #011627ff;
+  --baby-powder: #fdfffcff;
+  --tiffany-blue: #2ec4b6ff;
+  --rose-madder: #e71d36ff;
+  --orange-peel: #ff9f1cff;
+}
+
+body {
+  background-color: var(--rich-black-fogra-29);
+  color: var(--tiffany-blue);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+a:link {
+  color: var(--rose-madder);
+}
+
+a:visited {
+  color: var(--orange-peel);
+}
+
+ul {
+  display: grid;
+  /* grid-template-columns: repeat(); */
+  list-style: none;
+}
+
+h1 {
+  font-family: "Train One", cursive;
+}
+
+.num1 {
+  background-color: var(--rich-black-fogra-29);
+  width: 200px;
+  height: 200px;
+}
+
+.num2 {
+  background-color: var(--baby-powder);
+  width: 200px;
+  height: 200px;
+}
+
+.num3 {
+  background-color: var(--tiffany-blue);
+  width: 200px;
+  height: 200px;
+}
+
+.num4 {
+  background-color: var(--rose-madder);
+  width: 200px;
+  height: 200px;
+}
+
+.num5 {
+  background-color: var(--orange-peel);
+  width: 200px;
+  height: 200px;
+}
