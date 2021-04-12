@@ -8,7 +8,7 @@
   --rich-black-fogra-39: #070707ff;
   --black-chocolate: #28231cff;
   --dark-liver-horses: #513b3cff;
-  --liver: #655356ff;
+  --light-coral: #ef7674ff;
   --non-photo-blue: #c1eeffff;
   --silver-metallic: #ada8b6ff;
   --antique-white: #ffeedbff;
@@ -30,12 +30,17 @@ header {
   margin-bottom: 30px;
 }
 
+main {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
 nav {
   width: 500px;
 }
 
 .anchor {
-  margin-bottom: 213px;
+  margin-bottom: 100px;
 }
 
 .header {
@@ -81,7 +86,7 @@ a:visited {
 
 .grid-list {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 100px 100px 100px 100px;
 }
 
 .list-item {
@@ -98,3 +103,15 @@ button {
   color: var(--non-photo-blue);
   padding: 15px;
 }
+
+/* footer {
+  position: sticky;
+  top: 0;
+  background-color: var(--black-chocolate);
+  width: 100%;
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  font-size: large;
+} */
