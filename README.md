@@ -101,3 +101,4 @@ This app allows the user to log in and/or create an account. Then they can add a
 - Update dookies, meds, vaccines (and dog)
 - Make the show dogs button instead show a random dog and a set number
 - Update mobile responsiveness
+- Add resume to portfolio
